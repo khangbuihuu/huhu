@@ -1,5 +1,5 @@
 .main {
-  width: 1520px;
+  width: 100%100ch;
   height: 600px;
   background-color: #d3d3d3c8;
 }
@@ -61,24 +61,6 @@ li {
   display: flex;
 }
 
-.tag2 {
-  display: inline;
-  color: #1c2126;
-  font-weight: 300;
-  /* Chữ ban đầu mờ */
-  transition: font-weight 0.3s;
-  /* Tạo hiệu ứng chuyển đổi mượt mà */
-}
-
-.tag2:hover {
-  font-weight: 700;
-  /* Chữ sẽ đậm lên khi di chuột   vào */
-  text-decoration: underline;
-  /* Thêm gạch chân khi di chuột vào */
-  text-decoration-color: blue;
-  /* Gạch chân màu xanh */
-}
-
 a {
   color: #1c2126;
   text-decoration: none;
@@ -89,12 +71,12 @@ a {
   left: 585px;
   width: 196px;
   height: 73px;
-
+  font-size: 100px;
   /* UI Properties */
   text-align: center;
   font: normal normal bold 60px/68px Proxima Nova;
   letter-spacing: 1.2px;
-  margin: 100px 0 0 700px;
+  margin: 100px 0 0 650px;
   color: #4525f2;
   opacity: 1;
 }
@@ -110,7 +92,7 @@ a {
   letter-spacing: 0px;
   color: #1c2126;
   opacity: 1;
-  margin: 20px 0 0 550px;
+  margin: 20px 0 0 478px;
 }
 
 .btn {
@@ -155,7 +137,7 @@ a {
   letter-spacing: 0.73px;
   color: #1c2126;
   opacity: 1;
-  padding: 50px 0 0 520px;
+  padding: 50px 0 0 500px;
 }
 
 .choose>p {
@@ -169,7 +151,7 @@ a {
   letter-spacing: 0px;
   color: #1c2126;
   opacity: 1;
-  padding: 10px 0 0 530px;
+  padding: 10px 0 0 510px;
 }
 
 .value {
@@ -616,7 +598,7 @@ nav>p {
 .list {
   display: flex;
   margin-top: 50px;
-  margin-left: 390px;
+  margin-left: 130px;
 }
 
 .features {
@@ -624,6 +606,7 @@ nav>p {
   height: 859px;
   text-align: center;
   transition: background-color 0.3s ease;
+  margin-left: 130px;
 }
 
 .features:hover {
@@ -715,7 +698,7 @@ nav>p {
 .more {
   top: 3195px;
   left: 0px;
-  width: 1526px;
+  width: 1518px;
   height: 431px;
 }
 
@@ -757,7 +740,7 @@ nav>p {
 }
 
 .info {
-  padding: 100px 0 0 100px;
+  padding: 100px 0 0 150px;
 }
 
 .info>h1 {
@@ -811,14 +794,17 @@ nav>p {
   letter-spacing: 0px;
   color: #1c2126;
   opacity: 1;
-  padding: 10px 0 0 10px;
+  padding: 20px 0 0 10px;
 }
 
 .total-list {
+  height: 150px;
   display: flex;
+  padding-left: 220px;
 }
 
 .icon {
-  display: 30px 0 0 100px;
+  width: 500px;
+  display: 30px 0 0 145px;
   display: flex;
 }
